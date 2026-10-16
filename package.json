@@ -1,0 +1,16 @@
+{
+  "name": "quotex-license-server",
+  "version": "1.0.0",
+  "description": "Simple license server for Quotex Premium - 1 key 1 device + ban support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "admin": "node admin.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.3",
+    "uuid": "^10.0.0"
+  }
+}
